@@ -179,7 +179,7 @@ body{
 	display: block;
 	padding-left: 25px;
 	text-align: justify;
-	margin: 15px 0px 20px 0px;
+	margin: 30px 0px 30px 0px;
     font-size: 16px;
 }
 .col-left-section-1{
@@ -381,7 +381,7 @@ body{
 	width: 100%;
 	max-width: 375px;
 	position: absolute;
-	bottom: 41px;
+	bottom: 45px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
@@ -437,9 +437,9 @@ body{
     padding-top: 20px;
 }
 #form-contact-box{
-	padding: 40px 50px 35px 50px;
+	padding: 50px 60px;
 	position: relative;
-	max-width: 700px;
+	max-width: 850px;
 	margin: 25px auto 0px auto;
     z-index: 5;
     background-color: #FFF;
@@ -448,8 +448,8 @@ body{
 }
 .f-contact .des-contact{
 	margin-bottom: 0;
-	width: 50%;
-    margin-top: -55px;
+	width: 55%;
+    margin-top: -65px;
 }
 .f-contact .left-infor-user{
 	float: left;
@@ -526,8 +526,8 @@ body{
 	display: table-cell;
 }
 .f-contact .group-ip .lb-text{
-    width: 90px;
-    font-size: 16px;
+    width: 95px;
+    font-size: 17px;
 }
 .btn-submit.btn-style-link{
     background-color: #c54044;
@@ -538,7 +538,7 @@ body{
     max-width: 200px;
     border: none;
     padding: 8px 10px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .none-action{
 	pointer-events: none;
@@ -556,12 +556,12 @@ body{
 #form-contact-box .f-rose-3{
     position: absolute;
     z-index: 5;
-    width: 290px;
+    width: 325px;
     left: -60px;
     bottom: -85px;
 }
 .f-contact .title-form{
-	font-size: 20px;
+	font-size: 26px;
 	font-weight: 600;
 	display: block;
 	text-align: left;
@@ -640,7 +640,7 @@ video::-webkit-media-controls {
 }
 .br-section-2{
 	background-image: url('../images/background_2.jpg');
-	background-size: 100% 100%;
+	/*background-size: 100% 100%;*/
 }
 
 .br-section-3{
@@ -812,7 +812,7 @@ video::-webkit-media-controls {
 	display: none;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 20px;
 	font-family: 'VNFNarzissRegular';
 }
 .center-mode-owl .center .item .name{
@@ -827,19 +827,20 @@ video::-webkit-media-controls {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-    margin-top: -4px;
-    margin-left: -4px;
-    width: 8px;
-    height: 8px;
+    margin-top: -3px;
+    margin-left: -3px;
+    width: 6px;
+    height: 6px;
 	border-radius: 50%;
 	background-color: #999;
 }
 .center-mode-owl.owl-theme .owl-dots .owl-dot span{
-	width: 16px;
-	height: 16px;
+	width: 10px;
+	height: 10px;
 	position: relative;
 	background-color: transparent;
 	border: 1px solid #999;
+	margin: 4px;
 }
 
 .owl-container-4.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
@@ -851,10 +852,10 @@ video::-webkit-media-controls {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -4px;
-    margin-left: -4px;
-    width: 8px;
-    height: 8px;
+	margin-top: -3px;
+    margin-left: -3px;
+    width: 6px;
+    height: 6px;
 	border-radius: 50%;
 	background-color: #999;
 }
@@ -926,6 +927,7 @@ video::-webkit-media-controls {
 	width: 20px;
 	height: 20px;
 	z-index: 6;
+    cursor: pointer;
 }
 .modal-detail-prod .modal-content{
     border-radius: 0;
@@ -1678,7 +1680,8 @@ video::-webkit-media-controls {
 	}
 	.f-contact .right-localtion{
 		margin-top: 20px;
-	    padding-right: 35px;
+	    padding-right: 0;
+	    padding-left: 0;
 	}
 	.right-localtion .des-localion>span{
 		display: block;
