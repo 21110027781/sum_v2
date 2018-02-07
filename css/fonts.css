@@ -81,7 +81,7 @@
     }
 }
 
-/*
+
 @font-face {
     font-family: 'Cambria';
     src: url('fonts/Cambria.eot');
@@ -92,7 +92,20 @@
          url('fonts/Cambria.svg#Cambria') format('svg');
     font-weight: 400;
     font-style: normal;
-}*/
+}
+
+
+@font-face {
+    font-family: 'Cambria';
+    src: url('fonts/Cambria-Bold.eot');
+    src: url('fonts/Cambria-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Cambria-Bold.woff2') format('woff2'),
+         url('fonts/Cambria-Bold.woff') format('woff'),
+         url('fonts/Cambria-Bold.ttf') format('truetype'),
+         url('fonts/Cambria-Bold.svg#Cambria-Bold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'VNFNarzissRegular';
@@ -104,14 +117,13 @@
          url('fonts/VNFNarzissRegular.svg#VNFNarzissRegular') format('svg');
 }
 
-/*@font-face {
-    font-family: 'Cambria';
-    src: url('fonts/Cambria-Bold.eot');
-    src: url('fonts/Cambria-Bold.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Cambria-Bold.woff2') format('woff2'),
-         url('fonts/Cambria-Bold.woff') format('woff'),
-         url('fonts/Cambria-Bold.ttf') format('truetype'),
-         url('fonts/Cambria-Bold.svg#Cambria-Bold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-}*/
+@font-face {
+    font-family: 'SVNCiaoBella';
+    src: url('fonts/SVNCiaoBella.eot');
+    src: url('fonts/SVNCiaoBella.eot') format('embedded-opentype'),
+         url('fonts/SVNCiaoBella.woff2') format('woff2'),
+         url('fonts/SVNCiaoBella.woff') format('woff'),
+         url('fonts/SVNCiaoBella.ttf') format('truetype'),
+         url('fonts/SVNCiaoBella.svg#SVNCiaoBella') format('svg');
+}
+
