@@ -1,7 +1,7 @@
 body{
 	font-size: 14px;
-	font-family: 'Cambria', Georgia, serif !important;
-	/*font-family: 'Lora', serif;*/
+	/*font-family: 'Cambria', Georgia, serif !important;*/
+	font-family: 'Lora', serif;
 	color: #1c1c1c;
     font-weight: 400;
     line-height: 1.4128;
@@ -1267,7 +1267,7 @@ video::-webkit-media-controls {
 		height: 1000px;
 	}
 	.br-section-2{
-		background-color: #FFF;
+		background-color: #f9f8f6;
 	    background-image: url('../images/background_mobidle_2.jpg') !important;
 	    background-position: bottom center !important;
         background-size: 100% auto !important;
